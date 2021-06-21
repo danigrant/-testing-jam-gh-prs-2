@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Test test aliens can you hear me 👽</title>
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+    <h1>This heading must be changed!</h1>
+    <p>This sentence gota typo!</p>
+    <p>This sentence is s<span id="os"></span> dynamic</p>
+    <p><span>This sentence appears here too!</span></p>
+    <p>Second one that repeats 5 times</p>
+  <script>
+      let numOs = Math.ceil(Math.random() * 10)
+      document.querySelector("#os").innerHTML =  "o".repeat(numOs)
+
+  </script>
+</body>
+</html>
